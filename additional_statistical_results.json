@@ -1,0 +1,72 @@
+{
+  "normality_tests": {
+    "RPL_EJI": {
+      "shapiro_statistic": 0.9666051211609109,
+      "shapiro_p_value": 1.685551031713553e-11,
+      "dagostino_statistic": 163.37426359832827,
+      "dagostino_p_value": 3.339868879627681e-36,
+      "normal_shapiro": "False",
+      "normal_dagostino": "False"
+    },
+    "RPL_SVM": {
+      "shapiro_statistic": 0.9378616058015802,
+      "shapiro_p_value": 1.912842463257323e-16,
+      "dagostino_statistic": 256.07550373154004,
+      "dagostino_p_value": 2.4769137805719345e-56,
+      "normal_shapiro": "False",
+      "normal_dagostino": "False"
+    },
+    "RPL_EBM": {
+      "shapiro_statistic": 0.907948505470126,
+      "shapiro_p_value": 4.414646755227349e-20,
+      "dagostino_statistic": 66.01018767584497,
+      "dagostino_p_value": 4.635214874173233e-15,
+      "normal_shapiro": "False",
+      "normal_dagostino": "False"
+    },
+    "RPL_HVM": {
+      "shapiro_statistic": 0.6934839252028691,
+      "shapiro_p_value": 7.459954015039204e-34,
+      "dagostino_statistic": 178.31356588728644,
+      "dagostino_p_value": 1.9041499397258235e-39,
+      "normal_shapiro": "False",
+      "normal_dagostino": "False"
+    },
+    "RPL_CBM": {
+      "shapiro_statistic": 0.9482591679049724,
+      "shapiro_p_value": 5.3768566857755774e-15,
+      "dagostino_statistic": 338.9676869585771,
+      "dagostino_p_value": 2.478004012043561e-74,
+      "normal_shapiro": "False",
+      "normal_dagostino": "False"
+    }
+  },
+  "homogeneity_tests": {
+    "levene": {
+      "statistic": 20.153816051689887,
+      "p_value": 3.1073898279532754e-09
+    },
+    "bartlett": {
+      "statistic": 21.775986350120807,
+      "p_value": 1.8681194626125132e-05
+    }
+  },
+  "effect_sizes": {
+    "cohens_d": 2.0007415702068636,
+    "eta_squared": 0.0020610721278873077,
+    "cohens_d_interpretation": "large",
+    "eta_squared_interpretation": "negligible"
+  },
+  "power_analysis": {
+    "sample_size": 696,
+    "observed_correlation": 0.8670919198856892,
+    "cohens_f2": 3.0297946499262567,
+    "estimated_power": 1.0
+  },
+  "sample_info": {
+    "total_datacenters": 706,
+    "complete_eji_cases": 696,
+    "companies": 160,
+    "states": 42
+  }
+}
